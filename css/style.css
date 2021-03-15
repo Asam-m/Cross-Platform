@@ -55,7 +55,7 @@
   position: relative;
   top: 25px;
 }
-@media (max-width: 398px) {
+@media (max-width: 401px) {
   .nav-item {
     display: none;
   }

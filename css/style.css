@@ -62,4 +62,7 @@
   .headerDiv {
     height: 50px;
   }
+   #button {
+    margin-top: 11px;
+  }
 }

@@ -47,6 +47,7 @@
 }
 .ham {
   display: none;
+}
 #h2 {
   margin-left: 35%;
   color: #f3f3f3;
@@ -68,8 +69,8 @@
     margin-top: 11px;
     margin-right: 10px;
   }
-   .ham {
-     display: inline;
+  .ham {
+    display: inline;
   }
   .fa-bars {
     color: black;
@@ -88,7 +89,7 @@
     height: 415px;
   }
 }
-  #div2 {
+#div2 {
   display: flex;
 
   margin-top: 110px;

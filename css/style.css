@@ -45,6 +45,8 @@
   position: relative;
   top: 40px;
 }
+.ham {
+  display: none;
 #h2 {
   margin-left: 35%;
   color: #f3f3f3;
@@ -66,6 +68,8 @@
     margin-top: 11px;
     margin-right: 10px;
   }
+   .ham {
+    display: inline;
   .fa-bars {
     color: black;
     float: right;
@@ -74,7 +78,7 @@
   }
   #header-pic {
     height: 290px;
-    top: 40px;
+    border-radius: 0;
   }
   #h2 {
     top: 35px;
@@ -82,4 +86,27 @@
   #mainDiv {
     height: 415px;
   }
+}
+  #div2 {
+  display: flex;
+
+  margin-top: 110px;
+  background-color: #f3f3f3;
+  width: 100%;
+  min-height: 250px;
+  box-shadow: #686d88 1px 1px 1px 1px;
+  border-radius: 50px;
+}
+#div2 > div {
+  padding: 1em;
+  display: flex;
+  flex-grow: 1;
+}
+.gamesPic {
+  height: 155px;
+  width: 70px;
+  object-fit: cover;
+  box-shadow: #333333 1px 1px 1px 1px;
+
+  position: relative;
 }
